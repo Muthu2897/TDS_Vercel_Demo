@@ -13,7 +13,7 @@ app.add_middleware(
 )
 
 # Load student marks
-with open("students.json") as f:
+with open("q-vercel-python.json") as f:
     student_marks = json.load(f)
 
 @app.get("/api")
