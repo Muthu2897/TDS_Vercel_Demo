@@ -12,7 +12,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Load student marks
 with open("q-vercel-python.json") as f:
     student_marks = json.load(f)
 
